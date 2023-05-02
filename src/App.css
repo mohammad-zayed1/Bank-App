@@ -6,10 +6,10 @@
   list-style-type: none;
 }
 /* home style */
-.App{
+.App {
   height: 100%;
 }
-.home{
+.home {
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
@@ -27,26 +27,24 @@
   padding: 30px 30px;
 }
 
-.nav h1{
+.nav h1 {
   margin-right: 10px;
 }
-.nav a{
+.nav a {
   padding: 20px;
   color: white;
   text-decoration: none;
   display: inline-block;
- 
-} 
+}
 
-.nav a:hover{
- background-color: #777;
+.nav a:hover {
+  background-color: #777;
 }
 
 /* cards style */
-main{
+main {
   flex-grow: 1;
   display: flex;
-
 }
 main form {
   padding: 30px;
@@ -54,18 +52,18 @@ main form {
   align-items: flex-start;
   flex-direction: column;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.219);
+  
 }
-main form h2{
+main form h2 {
   margin-bottom: 15px;
 }
-main form input{
+main form input {
   margin-bottom: 15px;
   padding: 10px 15px;
   outline: none;
-  
 }
 
-main form button{
+main form button {
   padding: 5px 10px;
   width: 100%;
   border: none;
@@ -75,32 +73,45 @@ main form button{
   border-radius: 5px;
   cursor: pointer;
 }
-main form button:hover{
- background-color: #000;
+main form button:hover {
+  background-color: #000;
 }
-.cards-box{
-  
+.cards-box {
   display: flex;
   align-items: flex-start;
   padding: 20px;
   flex-wrap: wrap;
   gap: 10px;
 }
-.cards-box .card{
+.cards-box .card {
   background-color: #ddd;
   padding: 20px;
   border-radius: 10px;
 }
-.cards-box .card h3{
+.cards-box .card h3 {
   padding: 10px;
 }
-.cards-box .card ul{
+.cards-box .card ul {
   padding: 10px;
 }
-.cards-box .card ul li{
+.cards-box .card ul li {
   margin-bottom: 15px;
 }
 
+.cards-box .card .delete {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(211, 21, 21);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.cards-box .card .delete:hover {
+  background-color: rgb(150, 17, 17);
+}
 
 /* Footer style */
 footer {
@@ -111,11 +122,11 @@ footer {
   color: white;
   /* align-items: center; */
 }
-footer a{
+footer a {
   text-decoration: none;
   color: aliceblue;
 }
 
-footer a:hover{
+footer a:hover {
   text-decoration: underline;
 }
